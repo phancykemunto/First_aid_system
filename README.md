@@ -1,5 +1,11 @@
 # firstaid_app
 
+## 🚀 Live Demo
+
+[![View App](https://img.shields.io/badge/View-App-green?style=for-the-badge&logo=flutter)](https://phancykemunto.github.io/First_aid_system/)
+
+
+
 A new Flutter project.
 
 ## Getting Started
