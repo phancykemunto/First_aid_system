@@ -21,8 +21,11 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-      - name: Build web app
-        run: flutter build web
+      - name: Build web app with correct base href
+        run: flutter build web --base-href=/First_aid_system/
+
+      - name: Add 404.html for GitHub Pages routing
+        run: cp build/web/index.html build/web/404.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
